@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1500px;
+    height: 1100px;
+}
+header{
+    margin-left: 400px;
+}
+header h1{
+    margin-top: 50px;
+    font-size: 190%;
+    margin-left: 8px;
+    margin-bottom: -25px;
+}
+header h2{
+    margin-left: 8px;
+    font-size: 115%;
+    transform: translateY(100);
+}
+header h3{
+    text-align: center;
+    margin-top: 40px;
+    transform: translateY(-170px);
+}
+header h4{
+    margin-right: 130px;
+    text-align: right; 
+    font-size: 260%;
+    transform: translateY(-380px);
+}
+header h5{
+    margin-right: 120px;
+    text-align: right; 
+    font-size: 100%;
+    transform: translateY(-500px);
+}
+.container {
+    margin-left: 400px;
+    text-align: left;
+    transform: translateY(-500px);
+    background-color: white;
+}
+input[type="date"][name="วันที่"]{
+    width: 330px;;
+}
+input[type="date"][name="วัน เดือน ปีเกิด"]{
+    width: 450px;;
+}
+input[type="number"][name="อายุ"]{
+    width: 120px;;
+}
+input[type="number"][name="ถือบัตรประจำตัวประชาชน/ใบสำคัญคนต่างด้าว/บัตรข้าราชการ เลขที่"]{
+    width: 530px;
+}
+input[type="date"][name="เมื่อวันที่"]{
+    width: 270px;;
+}
+input[type="date"][name="สิ้นสุดวันที่"]{
+    width: 171px;;
+}
+input[type="number"][name="รหัสไปรษณีย์"]{
+    width: 215px;;
+}
+input[type="number"][name="รหัสไปรษณีย์1"]{
+    width: 215px;;
+}
+input[type="number"][name="รหัสไปรษณีย์2"]{
+    width: 210px;;
+}
+input[type="number"][name="โทรศัพท์/มือถือ"]{
+    width: 549px;;
+}
+input[type="number"][name="โทรสาร"]{
+    width: 252px;;
+}
+input[type="number"][name="โทรศัพท์"]{
+    width: 592px;;
+}
+input[type="number"][name="โทรสาร1"]{
+    width: 248px;;
+}
+
+.container .a0  table {
+    margin-right: 120px;
+    width: 30%;
+    border-collapse: collapse;
+  }
+.container .a0  td {
+    padding: 25px 0;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .container .a0 p{
+    margin-right: 140px;
+    text-align: right;
+    margin-bottom: 2px;
+  }
+.container .a1 g1{
+    margin-left: 69.3px;
+}
+.container .a1 g2{
+    margin-left: 145px;
+}
+.container .a2{
+    margin-left: 35px;
+}
+.container .a5 k1{
+    margin-left: 160px;
+}
+.container .a5 k2{
+    margin-left: 160px;
+}
+.container .a5 k3{
+    margin-left: 160px;
+}
+.container .a4 table{
+    width: 150px;
+    height: 200px;
+}
+.container .a5 .groupcon {
+    display: flex;
+    grid-template-columns: auto auto;
+    margin-bottom: 1em;
+}
+.container .a5 .groupmix16-18 {
+    display: inline-block;
+    grid-template-columns: auto;
+}
+.container .a5 .groupsub16-18 {
+    display: inline-block;
+    grid-template-columns: auto;
+    border: 1px solid #000;
+    margin-right: 1em;
+}
+.container .a5 .groupsub16-18 table {
+    width: 120px;
+    height: 150px;
+    border-collapse: collapse;
+  }
+.container .a5 .groupsub16-18 td {
+    padding: 65px 0;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+.container .a5 .groupsub16-18 tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+.container .a5 .groupsub16-18 tr:hover {
+    background-color: #f1f1f1;
+  }
+.container .a5 .groupcon .groupmix16-18 .group16 {
+    display: block;
+    margin-bottom: 1em;
+}
+.container .a5 .groupcon .groupmix16-18 .group16 .text-box {
+    width: 78.5%;
+    padding: 0.3em 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1em;
+}
+.container .a5 .groupcon .groupmix16-18 .group17 {
+    display: inline-block;
+    grid-template-columns: auto;
+    margin-bottom: 1em;
+}
+.container .a5 .groupcon .groupmix16-18 .group17 table {
+    padding: 2px;
+    width: 20px;
+    text-align: center;
+}
+.container .a5 .groupcon .groupmix16-18 .group17 table tr td input[type="text"]{
+    padding: 2px;
+    width: 20px;
+    text-align: center;
+}
+.container .a5 .groupcon .groupmix16-18 .text-box {
+    width: 24%;
+    padding: 0.3em 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    font-size: 1em;
+    line-height: 1em;
+}
+.container .a5 .groupcon .groupmix16-18 .group18 {
+    display: inline-block;
+    grid-template-columns: auto;
+    margin-bottom: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.container .a5 .groupcon .groupmix16-18 .group18 table{
+    padding: 2px;
+    width: 20px;
+    text-align: center;
+}
+.container .a5 .groupcon .groupmix16-18 .group18 table tr td input[type="text"]{
+    padding: 2px;
+    width: 20px;
+    text-align: center;
+}
